@@ -6,7 +6,7 @@ Download the appropreate installer file in the releases tab for your computer. T
 https://github.com/DGxInfinitY/Valadoc-app/releases
 
 # Build Instructions
-This Will be updated periodically when new platforms are added.
+This will be updated periodically when new platforms are added.
 ### For Ubuntu Based Linux Distrobutions
 #### Prerequisites
 You must install:\
