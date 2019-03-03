@@ -39,7 +39,7 @@ To build you can now simply run this command:
 electron-forge make
 ```
 And it will build the standard .deb (arch specific IE: If compiled on ARM64 the program will be built for ARM64 as a deb)
-However the fun part comes in building for specific platforms and package types. You can build for Mac, Windows, and Linux in various formats. To configure this you simply need to edit the package.json file. Edit the part makers(Toward the end of the file)
+However the fun part comes in building for specific platforms and package types. You can build for Mac, Windows, and Linux in various formats. To configure this you simply need to edit the package.json file. Edit the part that talks about "makers"(Toward the end of the file)
 For a list of avaliable configureations please see https://v6.electronforge.io/makers/
 
 # TODO
