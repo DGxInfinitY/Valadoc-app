@@ -1,4 +1,4 @@
-# Valadoc-app
+# Valadoc Desktop Application
 This is a Desktop Application for the Valadoc website buiild with nativefier and electron-forge
 
 # Installation Instructions
