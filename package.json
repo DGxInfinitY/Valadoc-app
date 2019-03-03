@@ -1,6 +1,6 @@
 {
   "name": "Valadoc Desktop App",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A Desktop Application for the Valadoc Website",
   "main": "lib/main.js",
   "dependencies": {
@@ -30,7 +30,7 @@
     "desktop",
     "electron"
   ],
-  "author": "Jia Hao",
+  "author": "Donovan Goodwin",
   "license": "MIT",
   "config": {
     "forge": {
@@ -39,7 +39,7 @@
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "valadoc_desktop_app_nativefier_063829"
+            "name": "valadoc-app"
           }
         },
         {
@@ -50,7 +50,13 @@
         },
         {
           "name": "@electron-forge/maker-deb",
-          "config": {}
+          "config": {
+                "options": {
+                    "icon": "icon.png",
+                    "maintainer": "Donovan Goodwin",
+                    "homepage": "https://github.com/DGxInfinitY"
+                }
+          }
         }
       ]
     }
