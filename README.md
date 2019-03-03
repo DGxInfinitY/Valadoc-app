@@ -19,11 +19,11 @@ You must install:\
 sudo apt install npm -y
 sudo npm install electron-forge -g
 sudo npm install nativefier -g
+sudo apt install git-lfs -y
 ```
 Then you need to git clone. This project includes a large file that uses git-lfs to store. That means you may need to clone using the git-lfs tool to actually clone the whole project rather than most of the project and a pointer file in place of the large file. Once this has been completed successfully you will need to go into the folder
 
 ```bash
-sudo apt install git-lfs -y
 git-lfs clone https://github.com/DGxInfinitY/Valadoc-app.git
 cd Valadoc-app
 ```
