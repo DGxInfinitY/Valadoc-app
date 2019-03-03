@@ -1,5 +1,5 @@
 # Valadoc Desktop Application
-This is a Desktop Application for the Valadoc website buiild with nativefier and electron-forge
+This is a Desktop Application for the Valadoc website built with nativefier and electron-forge
 
 # Installation Instructions
 Download the appropreate installer file in the releases tab for your computer. Then install the package.\
