@@ -1,0 +1,58 @@
+{
+  "name": "Valadoc Desktop App",
+  "version": "1.0.0",
+  "description": "A Desktop Application for the Valadoc Website",
+  "main": "lib/main.js",
+  "dependencies": {
+    "electron-context-menu": "^0.10.0",
+    "electron-dl": "^1.10.0",
+    "electron-squirrel-startup": "^1.0.0",
+    "electron-window-state": "^4.1.1",
+    "loglevel": "^1.5.1",
+    "source-map-support": "^0.5.0",
+    "wurl": "^2.5.2"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "6.0.0-beta.33",
+    "@electron-forge/maker-deb": "6.0.0-beta.33",
+    "@electron-forge/maker-rpm": "6.0.0-beta.33",
+    "@electron-forge/maker-squirrel": "6.0.0-beta.33",
+    "@electron-forge/maker-zip": "6.0.0-beta.33",
+    "electron": "4.0.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "keywords": [
+    "desktop",
+    "electron"
+  ],
+  "author": "Jia Hao",
+  "license": "MIT",
+  "config": {
+    "forge": {
+      "packagerConfig": {},
+      "makers": [
+        {
+          "name": "@electron-forge/maker-squirrel",
+          "config": {
+            "name": "valadoc_desktop_app_nativefier_063829"
+          }
+        },
+        {
+          "name": "@electron-forge/maker-zip",
+          "platforms": [
+            "darwin"
+          ]
+        },
+        {
+          "name": "@electron-forge/maker-deb",
+          "config": {}
+        },
+      ]
+    }
+  }
+}
